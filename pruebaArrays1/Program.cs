@@ -10,7 +10,20 @@ namespace pruebaArrays1
     {
         static void Main(string[] args)
         {
-            string[] parametros = new string[4];
+            string numParam;
+            Console.WriteLine("Introduzca el numero total de parámetros:");
+            numParam = Console.ReadLine();
+
+            int numParameter;
+            //tryparse convierte un string en un entero, siempre que pueda.
+            int.TryParse(numParam, out numParameter);
+            if (numParameter == 0)
+            {
+                Console.WriteLine("Cero parámetros, me salgo");
+                Console.ReadLine();
+            }
+
+            string[] parametros = new string[numParameter];
             for (int i = 0; i < parametros.Length ; i++)
             {
                 Console.Write("Introduzca valor del parámetro {0}: ", i);
