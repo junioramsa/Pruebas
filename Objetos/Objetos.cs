@@ -67,4 +67,7 @@ namespace Objetos
         public string Teacher { get; set; }
 
     }
+    public enum DayWeek {Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday}
+    public enum MonthYear {January,February,March,April,May,June,July,August,September,October,November,December}
+
 }
