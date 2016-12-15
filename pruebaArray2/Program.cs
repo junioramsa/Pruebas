@@ -15,6 +15,7 @@ namespace pruebaArray2
             //                                     [0,0][0,1]    [1,0][1,1]    [2,0][2,1]
             char[,] multiArray = new char[3, 2] { { 'a', 'b' }, { 'c', 'd' }, { 'e', 'f' } };
             Console.WriteLine(multiArray[1, 1]);
+            Console.WriteLine("Hola caracola");
             Console.ReadKey();
         }
     }
