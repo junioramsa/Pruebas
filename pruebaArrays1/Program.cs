@@ -31,12 +31,12 @@ namespace pruebaArrays1
             string[] parametros = new string[numParameter];
             for (int i = 0; i < parametros.Length ; i++)
             {
-                Console.Write("Introduzca valor del parámetro {0}: ", i);
+                Console.Write("Introduzca valor del parámetro {0}: ", i+1);
                 parametros[i] = Console.ReadLine();
             }
             for (int i = 0; i < parametros.Length ; i++)
             {
-                Console.WriteLine("El parametro numero {0}, tiene el valor: {1}", i, parametros[i]);
+                Console.WriteLine("El parametro numero {0}, tiene el valor: {1}", i+1, parametros[i]);
                 Console.ReadKey();
             }
         }
