@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Windows.Forms; //Para poder hacer cuadros de mensajes.
 
 namespace pruebaArrays1
 {
@@ -41,5 +41,5 @@ namespace pruebaArrays1
             }
         }
     }
-    
+
 }
