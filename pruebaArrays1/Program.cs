@@ -12,8 +12,7 @@ namespace pruebaArrays1
         static void Main(string[] args)
         {
             string numParam;
-            Console.WriteLine("");
-            Console.Write("Introduzca el numero total de parámetros:");
+            Console.Write("\n\nIntroduzca el numero total de parámetros:");
             numParam = Console.ReadLine();
 
             int numParameter;
