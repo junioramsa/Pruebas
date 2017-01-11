@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebaArray2", "pruebaArray
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{DD6837A7-6B89-4422-AF7B-0B367F159D84}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{7A1D71D9-6018-4D11-8317-E2F0FE76CB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaReport1", "PruebaReport1\PruebaReport1.csproj", "{FDF2ACC8-B0EA-4163-845A-8C1CCCC455BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{DD6837A7-6B89-4422-AF7B-0B367F159D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD6837A7-6B89-4422-AF7B-0B367F159D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD6837A7-6B89-4422-AF7B-0B367F159D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF2ACC8-B0EA-4163-845A-8C1CCCC455BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF2ACC8-B0EA-4163-845A-8C1CCCC455BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF2ACC8-B0EA-4163-845A-8C1CCCC455BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF2ACC8-B0EA-4163-845A-8C1CCCC455BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +77,6 @@ Global
 		{D6585F44-7F6A-4F7C-A4BD-56F7CADA190C} = {3267859B-BB5A-4B7C-9426-4508F1841F92}
 		{DD6837A7-6B89-4422-AF7B-0B367F159D84} = {3267859B-BB5A-4B7C-9426-4508F1841F92}
 		{4D308559-5C9A-4465-A45C-2EFF60EE8F52} = {073192FA-3672-4B5A-B350-98CDA3DD9C5E}
+		{FDF2ACC8-B0EA-4163-845A-8C1CCCC455BF} = {7A1D71D9-6018-4D11-8317-E2F0FE76CB95}
 	EndGlobalSection
 EndGlobal
