@@ -5,6 +5,17 @@ using System.Text;
 
 namespace Objetos
 {
+    public class Vehiculo
+    {
+        public string Marca { get; set; }
+        public string CodModelo { get; set; }
+        public string ModeloComercial { get; set; }
+        public double Coste { get; set; }
+
+
+    }
+
+
     public class Student
     {
 
